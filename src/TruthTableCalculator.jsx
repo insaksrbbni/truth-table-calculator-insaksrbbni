@@ -394,7 +394,7 @@ const TruthTableCalculator = () => {
                 <div className="flex justify-between items-center mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-blue-300">Tabel Kebenaran</h3>
-                    <p className="text-sm text-yellow-300 mt-1">i: {result.expression}</p>
+                    <p className="text-sm text-yellow-300 mt-1">Hasil : {result.expression}</p>
                   </div>
                   <button
                     onClick={copyTable}
