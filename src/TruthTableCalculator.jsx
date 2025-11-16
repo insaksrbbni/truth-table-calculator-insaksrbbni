@@ -308,12 +308,12 @@ const TruthTableCalculator = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-950 via-slate-900 to-yellow-950 p-4">
-      <div className="max-w-6xl mx-auto">
+      <div className="lg:max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8 pt-8">
           <div className="inline-flex items-center gap-3 mb-4">
             <Calculator className="w-10 h-10 text-yellow-400" style={{filter: 'drop-shadow(0 0 10px rgba(250, 204, 21, 0.5))'}} />
-            <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-300 to-yellow-400" 
+            <h1 className="text-2xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-300 to-yellow-400" 
                 style={{textShadow: '0 0 20px rgba(96, 165, 250, 0.3)'}}>
               Truth Table Calculator
             </h1>
@@ -670,7 +670,7 @@ const TruthTableCalculator = () => {
 
         {/* Footer */}
         <div className="text-center mt-8 text-slate-400 text-sm pb-8">
-          <p>© Truth Table Calculator 2025 | Insa Aksar Rabbani</p>
+          <p>© Truth Table Calculator 2025 | INSA AKSAR RABBANI</p>
           <p className="mt-1 text-blue-300/70">POLITEKNIK MARDIRA INDONESIA</p>
         </div>
       </div>
